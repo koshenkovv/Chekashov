@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архив</title>
+    <link rel="stylesheet" href="./assets/styles/archive_style.css">
+</head>
+<body>
+    <div class="preview" onclick="hideFull()">
+        <div>
+            <img loading="lazy" id="fullImg" src="./assets/images/posters_full/chee-z-screen.jpg" alt="">
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="info_block">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/images/logo_dark.svg" alt="Logo">
+                </a>
+            </div>
+            <div>
+                <p>
+                    Архив
+                </p>
+            </div>
+            <div class="arrow">
+                <a href="">
+                    <img src="./assets/images/arrow_left.svg" alt="arrow">
+                </a>
+            </div>
+        </div>
+        <div class="slider" id="scroll-container">
+            <div class="slider_el lefter_arch">
+                <div class="image_info">
+                    <p class="image_header">
+                        ОДИНОЧЕСТВО
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        100х120 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/01_odinochestvo.jpg" alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ПАРИЖ. ОПЕРА <br>
+                        ГАРНЬЕ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        120х100 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/02_paris.jpg" alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        АВТОПОРТРЕТ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        100х120 см / 2006
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/03_autop.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ТАЙСОН <br>
+                        МОЛОДЫЕ ГОДЫ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        120х100 см / 2006
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/04_taison.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ЕЛЕНА И СТАРЦЫ <br>
+                        СЛУЧАЙ В "МЕТРОПОЛЕ"
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        200x155 см / 2004
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/05_elena.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ДИКТАТУРА ЖЕНЩИН
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        160х160 см / 1992 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/06_author.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ПАГАНИНИ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        100х125 см / 1992
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/07_paganini.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ВИОЛОНЧЕЛИСТКА
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        100х80 см / 1999 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/08_violonchel.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ВАСИЛИЙ БЛАЖЕННЫЙ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        150х110 см / 1993 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/09_vasiliy.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ДОРОГА. ДВОЕ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        130х130 см / 1992 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/10_doroga.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ПОРТРЕТ МАРИНЫ <br>
+                        У ОЗЕРА
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        100х130 см / 1990 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/11_marina.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        БАНЬКА. ЭТЮД
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        70х50 см / 1990 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/12_banya.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        АВСТРИЙСКИЙ ПЕЙЗАЖ
+                    </p>
+                    <p class="image_text">
+                        Орг, масло. <br>
+                        60х80 см / 1991 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/13_avstiya.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ПЕТЕРБУРГСКИЙ МОТИВ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        70х50 см / 1989 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/14_motiv.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        НАТЮРМОРТ С ЛАМПОЙ <br>
+                        И СУХИМИ МАКАМИ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        200x155 см / 2004
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/15_lampa.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                       ЖЕНШЩИНЫ ПОЕТРЯЛИСЬ
+                    </p>
+                    <p class="image_text">
+                        Холст, масло. <br>
+                        100х120 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ СЕРИИ 'ТРОЕ'
+                    </p>
+                    <p class="image_text">
+                        Бумага, акварель. <br>
+                        100х70 см / 1990
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/21_troe1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ СЕРИИ 'ТРОЕ'
+                    </p>
+                    <p class="image_text">
+                        Бумага, акварель. <br>
+                        100х70 см / 1990
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/22_troe2.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ СЕРИИ 'ТРОЕ'
+                    </p>
+                    <p class="image_text">
+                        Бумага, акварель. <br>
+                        100х70 см / 1990
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/23_troe3.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ПОРТРЕТ РОК-МУЗЫКАНТА
+                    </p>
+                    <p class="image_text">
+                        Бумага тонированная, <br>
+                        акварель, перо. <br>
+                        35х65 см / 1988 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/24_rock.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        'ПОРТРЕТ ШИЗОФРЕНИКА' <br>
+                        ИЗ СЕРИИ 'ЧЕРТОПОЛОХ'
+                    </p>
+                    <p class="image_text">
+                        Бумага, перо, тушь. <br>
+                        24х30 см / 1988 
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/25_shiz.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ШАРЖ НА МЭРА <br>
+                        ГОРОДА МОСКВЫ <br>
+                        Ю. ЛУЖКОВА.
+                    </p>
+                    <p class="image_text">
+                        Бумага тонированная, <br>
+                        цветные карандаши. <br>
+                        80х100 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/26_lyjk.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ШАРЖ НА НАРОДНОГО <br>
+                        АРТИСТА РОССИИ <br>
+                        Н. ЦИСКАРИДЗЕ.
+                    </p>
+                    <p class="image_text">
+                        Бумага, сангина. <br>
+                        100х70 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/27_cis.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ШАРЖ НА ЗАСЛУЖЕННОГО <br>
+                        МАСТЕРА СПОРТА СОВЕТСКОГО <br>
+                        СОЮЗА Н. СИМОНЯНА.
+                    </p>
+                    <p class="image_text">
+                        Бумага тонированная, <br>
+                        цветные карандаши. <br>
+                        70x100 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/28_simon.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ШАРЖ НА И. КОЦА <br>
+                        ГЛАВНОГО РЕДАКТОРА <br>
+                        ГАЗЕТЫ 'СОВЕТСКИЙ СПОРТ'
+                    </p>
+                    <p class="image_text">
+                        Бумага, цветные карандаши. <br>
+                        50x70 см / 2006
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/29_koc.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ПОСВЯЩЕНИЕ РЕМБРАНДТУ
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        компьютерная графика <br>
+                        135х150 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/30_posv.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        БОЛОТИСТОЕ
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        компьютерная графика <br>
+                        120х150 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/31_bolot.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ЦЕЛЛОФАНОВАЯ ДАНАЯ
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        компьютерная графика <br>
+                        170х120 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/32_celof.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        КОЛДУНЬЯ 
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        компьютерная графика <br>
+                        150x150 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/33_cold.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ЛЕТО 
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото. <br>
+                        50x30 см / 1993
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/34_leto.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        АМАЗОНКА
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        компьютерная графика <br>
+                        100х150 см / 2007
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/35_amazon.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ СЕРИИ <br>
+                        'МУЗЫКА ТЕНЕЙ'
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        вирирование <br>
+                        65х50 см / 1995
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/35_pavlin.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ СЕРИИ <br>
+                        'МУЗЫКА ТЕНЕЙ'
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        вирирование <br>
+                        65х50 см / 1995
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/36_balerina.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        ИЗ СЕРИИ <br>
+                        'МУЗЫКА ТЕНЕЙ'
+                    </p>
+                    <p class="image_text">
+                        Постановочное фото, <br>
+                        вирирование <br>
+                        65х50 см / 1995
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/37_halat.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1988
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/38_bratia.gif" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1989
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/39_vremya.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1989
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/40_limon.png" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1990
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/41_lico.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1990
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/42_tiraj.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1992
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/43_mira.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1994
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/44_nosta.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1990
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/45_narych.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1992
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/46_porno.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1991
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/47_chistota.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1993
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/48_ecologia.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1998
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/49_limon.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1999
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/50_yarche.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1999
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/51_stalker.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        1991
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/52_dersinger.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        2001
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/53_german1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header_year">
+                        2001
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/archive/54_german2.jpg" alt="">
+                </div>
+            </div>
+
+
+
+        <div class="navigation">
+            <a href="./index.html">
+                <div class="nav_block_o">
+
+                </div>
+            </a>
+            <div class="nav_block_t">
+
+            </div>
+            </a>
+            <div class="nav_block_th" onclick=scrollToStart()>
+
+            </div>
+
+        </div>
+        
+</body>
+<script src="./assets/scripts/project_script.js"></script>
+</html>

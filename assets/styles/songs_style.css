@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersans.ttf);
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersansmedium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersanslight.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Alegreyasans;
+    src: url(../fonts/Alegreyasansmedium.ttf);
+}
+
+@font-face {
+    font-family: Antarctic;
+    src: url(../fonts/Antarctic.otf);
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 60px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.head p {
+    font-family: Antarctic;
+    font-size: 85px; 
+    margin-left: -150px;
+    color: #939598;
+    text-align: center;
+}
+
+.authors {
+    font-family: Bloggersans;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.track_list {
+    font-family: Bloggersans;
+    font-size: 30px;
+    color: white;
+    text-indent: 20px;
+}
+
+.cover-block {
+    display: flex;
+}
+
+.main-block {
+    padding: 0 100px 100px 100px;
+}
+
+.cover-art {
+    margin: 0px 50px 70px 0px
+}
+
+.cover-art img {
+    height: 700px;
+}
+
+@media (max-width: 1281px) {
+    .cover-art img {
+        height: 539px;
+    }
+
+    p {
+        font-size: 24px !important;
+    }
+
+    .head p {
+        font-size: 70px !important;
+    }
+
+    .main-block {
+        padding: 0 70px 70px 70px;
+    }
+
+    .cover-art {
+    margin: 0px 30px 45px 0px
+    }
+}
