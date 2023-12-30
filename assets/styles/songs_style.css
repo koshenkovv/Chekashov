@@ -82,7 +82,7 @@ header {
     height: 700px;
 }
 
-@media (max-width: 1281px) {
+@media (max-width: 1601px) {
     .cover-art img {
         height: 539px;
     }

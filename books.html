@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторские книги</title>
+    <link rel="stylesheet" href="./assets/styles/archive_style.css">
+</head>
+
+<body>
+    <div class="preview" onclick="hideFull()">
+        <div>
+            <img loading="lazy" id="fullImg" src="./assets/images/posters_full/chee-z-screen.jpg" alt="">
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="info_block">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/images/logo_dark.svg" alt="Logo">
+                </a>
+            </div>
+            <div>
+                <p class="name_pr">
+                    Авторские <br>книги
+                </p>
+            </div>
+            <div class="arrow">
+                <a href="">
+                    <img src="./assets/images/arrow_left.svg" alt="arrow">
+                </a>
+            </div>
+        </div>
+        <div class="slider" id="scroll-container">
+
+            <div class="slider_el lefter_arch">
+                <div class="image_info">
+                    <p class="image_header">
+                        Василий Чекашов. <br> Плакат. Постер. <br> Корпоративный стиль. <br> Полиграфия. Реклама.
+                    </p>
+                    <p class="image_text">
+                        2006 г. <br>
+                        Иллюстрированная. <br>
+                        Формат 240×230 мм, 224 стр.
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/books/01_book.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        Василий Чекашов. <br> Мой плакат. <br> Творческая мотивация <br> в социальном плакате
+                    </p>
+                    <p class="image_text">
+                        2015 г. <br> Иллюстрированная. <br> Формат 240×230 мм, 192 стр.
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/books/02_book.jpg"
+                        alt="image">
+                </div>
+            </div>
+
+            <div class="slider_el">
+                <div class="image_info">
+                    <p class="image_header">
+                        Василий Чекашов. <br> Зримые песни <br> (стихи, ноты)
+                    </p>
+                    <p class="image_text">
+                        2019 г. <br> Формат 240×230 мм, 90 стр.
+                    </p>
+                </div>
+                <div class="img_arch">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/books/03_book.JPG"
+                        alt="image">
+                </div>
+            </div>
+
+            
+
+            <div class="navigation">
+                <a href="./index.html">
+                    <div class="nav_block_oc">
+
+                    </div>
+                </a>
+                <div class="nav_block_t">
+                    
+                </div>
+                </a>
+                <div class="nav_block_tc" onclick=scrollToStart()>
+
+                </div>
+
+            </div>
+
+</body>
+<script src="./assets/scripts/project_script.js"></script>
+</html>

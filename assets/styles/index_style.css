@@ -186,7 +186,7 @@ html, body {
     justify-content: right;
 }
 
-@media (max-width: 1281px) {
+@media (max-width: 1601px) {
     .project_side, .about {
         width: 40%;
     }

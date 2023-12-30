@@ -48,27 +48,26 @@ section {
     text-align: center;
 }
 
+.borders {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 25px 0;
+    margin: 50px 0;
+    font-size: 39px;
+}
+
 .text_block {
     font-family: Bloggersans;
 }
 
 .text_block h1{
     font-size: 36px;
-    margin: 25px 0 25px 0;
+    margin: 60px 0 25px 0;
 }
 
-.text_block p{
+.basic_p{
     font-size: 28px;
-}
-
-.text_block h2 {
-    font-weight: 500;
-    font-size: 40px;
-    margin-bottom: 35px;
-}
-
-.space {
-    height: 150px;
+    text-indent: 10px
 }
 
 .press-block h1 {
@@ -85,6 +84,26 @@ section {
     text-indent: 20px;
 }
 
+.author {
+    padding: 20px 0px 100px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Bloggersans;   
+}
+
+.image_block {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image_block img{
+    /* width: 100%; */
+    margin: 0 10px;
+    /* width: 100%;
+    height: auto; */
+}
+
 .quote {
     margin: 70px 0 70px 0;
     padding: 30px 0 30px 0px;
@@ -98,9 +117,3 @@ section {
     font-weight: 400;
 }
 
-.author {
-    padding: 20px 0px 100px 20px;
-    font-size: 30px;
-    font-weight: 300;
-    font-family: Bloggersans;
-}
